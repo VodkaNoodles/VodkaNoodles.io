@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="..\styles\main.css">
+        <link rel="stylesheet" href="..\styles\shipping.css">
+
+        <title>Shipping</title>
+    </head>
+    <body>
+
+        <header>
+            <img src="../images/misc/FenderStratocasterHeader.png" alt="Guitar Shop Logo">
+            <h2>The Guitar Store!</h2> 
+
+            <h3>For rock stars everywhere!</h3>
+
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../lessons/index.html">Lessons</a></li>
+                <li><a href="../products/index.html">Products</a></li>
+                <li><a href="../support/index.html">Support</a></li>
+                <li><a href="../shipping/index.html">Shipping</a></li>
+                <li>
+                    <a href="../contact/index.html">Contact Us</a>
+                    <ul>
+                        <li> <a href="../contact/index.html">Contact Us</a></li>
+                        <li><a href="../contact/email.html">Email</a></li>
+                        <li><a href="../contact/phone.html">Phone</a></li>
+                        <li><a href="../contact/chat.html">Chat</a></li> 
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <aside>
+
+
+                <ul>
+
+                    <li><a href="../products/guitars/index.html">Guitars</a></li>
+                    <li><a href="../products/basses/index.html">Basses</a></li>
+                    <li><a href="../products/drums/index.html">Drums</a></li>
+                    <li><a href="../products/keyboards/index.html">Keyboards</a></li>
+
+                </ul>
+            </aside> 
+
+            <section>
+                <h2>
+                    Shipping Costs
+                </h2>    
+                <div>
+
+                    <label for="product">Enter cost of the product:</label>
+                    <input type="text" id="product" name="productName">
+                    <button type="button" id="calculate" name="calculate">Calculate</button>
+
+                </div>
+
+                <div>
+
+                    <label for="totalCost">Total cost, including shipping:</label>
+                    <input type="text" id="totalCost" name="totalCost" readonly>
+
+                </div>
+
+            </section>
+
+            <footer>
+                <div>
+                    <p>&#169; 2023 The Guitar Shop</p>
+                </div>
+                
+                <div>
+                    
+                </div>    
+            </footer>
+
+        </main>
+        <script src="../scripts/shipping.js"></script>
+        <script src="../scripts/date.js"></script>
+    </body>

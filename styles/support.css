@@ -1,0 +1,50 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Feb 4, 2026, 9:09:43 PM
+    Author     : cwu
+*/
+
+section h2{
+    font-size: 150%;
+}
+
+section h3 {
+    font-size: 120%;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding-left: 25px;
+    background-image: url("../images/misc/plus.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    
+}
+
+section h3.minus{
+    background-image: url("../images/misc/minus.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+section a {
+    color: black;
+    text-decoration: none;
+}
+
+section div{
+    display: none;
+}
+
+section div.open{
+    display: block;
+}
+
+section ul {
+    padding-left: 45px;
+}
+
+section p{
+    padding-left: 25px;
+}
